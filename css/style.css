@@ -23,6 +23,23 @@ h3 {
     font-weight: 300;
 }
 
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    border-bottom: 1px solid #7B16E0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    padding-top: 12px;
+}
+
 section {
     padding: 10px 100px 10px 100px;
 }
@@ -51,6 +68,10 @@ a:-moz-any-link{
     color: white;
 }
 
+ul {
+    list-style: none;
+}
+
 li {
     float: left;
     margin-right: 15px;
@@ -67,7 +88,7 @@ li {
 #social_media{
     list-style: none;
     margin-top: 27px;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 #experiencia {
@@ -83,5 +104,14 @@ li {
     background-image: url(../imagenes/fondo4.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 280px;
+    min-height: 320px;
+    padding-top: 150px;
+}
+
+#logo{
+    padding-top: 0;
+}
+
+#logo_img {
+    height: 70px;
 }
