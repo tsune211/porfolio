@@ -1,0 +1,87 @@
+/*css general elementos */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #222;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h3 {
+    color: #999;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+section {
+    padding: 10px 100px 10px 100px;
+}
+
+p {
+    text-align: justify;
+}
+
+cite {
+    font-weight: 300;
+}
+
+i:hover {
+    color: #ffc900;
+}
+
+a:any-link {
+    color: white;
+}
+
+a:-webkit-any-link {
+    color: white;
+}
+
+a:-moz-any-link{
+    color: white;
+}
+
+li {
+    float: left;
+    margin-right: 15px;
+}
+
+
+/*css ids y clases*/
+
+.hastag {
+    color: #ffc900;
+}
+
+
+#social_media{
+    list-style: none;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+#experiencia {
+    background-color: white;
+    color: #222;
+}
+
+#porfolio {
+    border-top: 1px solid #ffc900;
+}
+
+#inicio {
+    background-image: url(../imagenes/fondo4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+}
