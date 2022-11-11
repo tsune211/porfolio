@@ -129,6 +129,38 @@ button {
     height: 70px;
 }
 
+.masinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/*Grid sobre mi*/
+
+#sobre-mi {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+#sobre-mi h2 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#sobre-mi .masinfo {
+    margin-top: 15px;
+}
+
+#sobre-mi .masinfo button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /*Card portfolio*/
 
 .filaportfolio {
@@ -163,19 +195,12 @@ button {
     margin: 15px 0px 15px 0 px;
     height: 26px;
 }
-.card .masinfo button{
-    background-color: #ffc900;
-    font-weight: 600;
-    padding-left: 15px;
-    padding-right: 15px;
-    float: right;
-}
+
 .card .sep{
     margin: 0 5px 5px 0;
     border: 1px solid #ffc900;
 }
 
-.card button {
-    margin-top: 5px;
-    padding: 5px;
+.card .masinfo button {
+    float: right;
 }
