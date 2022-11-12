@@ -129,6 +129,14 @@ button {
     height: 70px;
 }
 
+#contactar {
+    background-color: #ffc900;
+}
+
+#contactar h2 {
+    color: #000;
+}
+
 .masinfo button{
     background-color: #ffc900;
     font-weight: 600;
@@ -162,6 +170,14 @@ button {
 }
 
 /*Card portfolio*/
+
+.gridexp {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
 
 .filaportfolio {
     display: flex;
@@ -203,4 +219,31 @@ button {
 
 .card .masinfo button {
     float: right;
+}
+
+.cardexp {
+    background-color: #222;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+
+.cardexp h2 {
+    margin-bottom: 5px;
+}
+
+.cardexp h3 {
+    margin-bottom: 20px;
+}
+
+.cardexp p {
+    margin-bottom: 20px;
+}
+
+.cardexp ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.cardexp li {
+    height: 30px;
 }
