@@ -121,11 +121,11 @@ button {
     padding-top: 89px;
 }
 
-#logo{
+.logo{
     padding-top: 0;
 }
 
-#logo_img {
+.logo_img {
     height: 70px;
 }
 
@@ -246,4 +246,31 @@ button {
 }
 .cardexp li {
     height: 30px;
+}
+
+/*formulario*/
+.itemform {
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.itemform label {
+    color: #000;
+    font-weight: 700;
+
+}
+
+.itemform input, .itemform textarea {
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+input[type= "submit"] {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
 }
