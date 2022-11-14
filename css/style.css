@@ -196,6 +196,8 @@ button {
 
 .card img {
     border-radius: 15px 15px 0 0;
+    height: 154px;
+    width: 250px;
 }
 
 .card h3{
