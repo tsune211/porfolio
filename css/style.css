@@ -171,6 +171,11 @@ button {
     padding-right: 30px;
 }
 
+#sobre-mi img {
+    margin-right: 100px;
+    padding-right: 50px;
+}
+
 /*Card portfolio*/
 
 .gridexp {
