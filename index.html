@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <script src="jquery/"></script>
     <title>Portafolio Rodolfo Mariscal</title>
 </head>
 <body>
@@ -19,7 +20,12 @@
             <li> <a href="#porfolio">portafolio</a></li>
             <li class="logo"> <a href="#inicio"><img src="imagenes/odin4.png" alt="logo mjolnir" class="logo_img"></a></li>
             <li> <a href="#experiencia">skills</a></li>
-            <li> <a href="#contactar">contacto</a></li>
+            <li class="idioma">
+                <a href="#">Idiomas</a>
+                <ul class="opciones-idioma">
+                  <li><a href="English.html">Inglés</a></li>
+                </ul>
+              </li>
         </ul>
     </nav>
     <article>
@@ -28,6 +34,7 @@
         <section id="inicio">   
             <h2>Rodolfo Mariscal</h2>
             <h3 class="hastag">#estudiante ingenieria en sistemas</h3>
+            <h3 class="hastag">#Ciberseguridad</h3>
             <h3 class="hastag">#Programador jr</h3>
             <ul id="social_media">
                 <li> <a href="https://github.com/tsune211" target="_blank "><i class="fa-brands fa-github"></i></a></li>
@@ -58,7 +65,7 @@
                 <P>
                     Me entusiasman las nuevas oportunidades y así adquirir experiencia en diversas áreas. 
                 </P>
-                <div class="masinfo"><a href="imagenes/Currículum_links.pdf" target="_blank"><button type="button">MAS INFO</button></a></div>
+                <div class="masinfo"><a href="imagenes/CV Rodolfo Mariscal González.pdf" target="_blank"><button type="button">MAS INFO</button></a></div>
             </div>
         </section>
         
@@ -73,7 +80,7 @@
                     <h4>Plataforma MasterMind</h4>
                     <div class="sep"></div>
                     <p>Curso de python enfocado en programación funcional.</p>
-                    <div class="masinfo"><a href="https://www.mastermind.ac/certificates/gpxpycvomh" target="_blank"><button type="button">MAS INFO</button></a></div>
+                    <div class="masinfo"><a href="https://www.mastermind.ac/certificates/f1c8cbb917454ff2927bfb00fffee6ac" target="_blank"><button type="button">MAS INFO</button></a></div>
                 </div>
                 <div class="card">
                     <img src="./imagenes/html-css.jpg" alt="Portfolio 2" id="python-cer">
@@ -81,7 +88,7 @@
                     <h4>Desarrollo web en HTML y CSS</h4>
                     <div class="sep"></div>
                     <p>Curso de HTML y CSS hasta un nivel intermedio.</p>
-                    <div class="masinfo"> <a href="https://www.mastermind.ac/certificates/z4ztdniva6" target="_blank"><button type="button">MAS INFO</button></a></div>
+                    <div class="masinfo"> <a href="https://www.mastermind.ac/certificates/52aab8414f66457db064846c23aa8dc3" target="_blank"><button type="button">MAS INFO</button></a></div>
                 </div>
                 <div class="card">
                     <img src="./imagenes/linux1.png" alt="Portfolio 3">
@@ -89,7 +96,7 @@
                     <h4>Curso de Linux</h4>
                     <div class="sep"></div>
                     <p>Curso de Linux en la distribuicion de ubuntu.</p>
-                    <div class="masinfo"><a href="https://www.mastermind.ac/certificates/uo8o98usvb" target="_blank"><button type="button">MAS INFO</button></a></div>
+                    <div class="masinfo"><a href="https://www.mastermind.ac/certificates/28c59c898cc24cf38254602f282a5b86" target="_blank"><button type="button">MAS INFO</button></a></div>
                 </div>
                 <div class="card">
                     <img src="./imagenes/github.png" alt="Portfolio 4">
@@ -97,8 +104,9 @@
                     <h4>Curso de  Git y Github</h4>
                     <div class="sep"></div>
                     <p>Curso de Git y Github hasta nivel intermedio.</p>
-                    <div class="masinfo"><a href="https://www.mastermind.ac/certificates/5ohqreqspd" target="_blank"><button type="button">MAS INFO</button></a></div>
+                    <div class="masinfo"><a href="https://www.mastermind.ac/certificates/66b9a43c07c545978074536eae2a097a" target="_blank"><button type="button">MAS INFO</button></a></div>
                 </div>
+                
             </div>
         </section>
 
@@ -128,9 +136,10 @@
                         </ul>
                     </div>
                     <div class="cardexp">
-                        <h2>Japones</h2>
-                        <h3 class="textoizquierda">2020-actual</h3>
-                        <p>estudiante de idioma japones en el Centro de Lenguas Extranjeras (CENLEX) IPN con un nivel de NOKEN N5 y KANKEN 10.</p>
+                        <h2>Cibersecurity Deloitte</h2>
+                        <h3 class="textoizquierda">febrero-2023-actual</h3>
+                        <p>responsable de verificar potenciales malwares y phishings reportados 
+                            por los usuarios, ademas de bloquear o crear medidas en caso de confirmar correos maliciosos </p>
                         <ul>
                             <li><img src="./imagenes/tecno_au.png" alt="" height="30px"></li>
                             <li><img src="./imagenes/tecno_cu.png" alt="" height="30px"></li>
@@ -140,40 +149,18 @@
                 </div>   
         </section>
 
-        <!--bloque formulario-->
-        <section id="contactar">
-            <h2>contacto</h2>
-            <h3>enviame tus dudas</h3>
-            <form action="#">
-                <div class="itemform">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="14" required>
-                </div>
-                <div class="itemform">
-                    <label for="Empresa">Empresa</label>
-                    <input type="text" id="Empresa" name="Empresa" minlength="2" maxlength="128" size="14">
-                </div>
-                <div class="itemform">
-                    <label for="Email">Email</label>
-                    <input type="email" id="Email" name="Email" minlength="10" maxlength="128" size="32" required>
-                </div>
-                <div class="itemform">
-                    <label for="Mensaje">Mensaje</label>
-                    <textarea name="Mensaje" id="Mensaje" cols="33" rows="5"></textarea>
-                </div>
-                <div class="itemform">
-                    <input type="submit" name="enviar" value="Contactar">
-                </div> 
-            </form>
-        </section>
-    </article>
+        
 
     <!--bloque footer-->
     <footer>
         <ul>
             <li class="logo"> <a href="#inicio"><img src="imagenes/odin4.png" alt="logo mjolnir" class="logo_img"></a></li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            <li></li>
         </ul>
     </footer>
 </body>
+
+<script src="./back/idomas.js"></script>
+<script src="./back/movimiento_portfolio.js"></script>
+
 </html>

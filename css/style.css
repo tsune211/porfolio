@@ -92,6 +92,7 @@ button {
 }
 
 
+
 /*css ids y clases*/
 
 .hastag {
@@ -115,7 +116,7 @@ button {
 }
 
 #inicio {
-    background-image: url(../imagenes/fondo4.png);
+    background-image: url(../imagenes/ciberseguridad.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 320px;
@@ -129,6 +130,14 @@ button {
 .logo_img {
     height: 70px;
 }
+
+.opciones-idioma {
+    display: none;
+  }
+  
+.idioma:hover .opciones-idioma {
+    display: block;
+  }
 
 #contactar {
     background-color: #ffc900;
